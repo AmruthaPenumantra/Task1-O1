@@ -1,0 +1,23 @@
+[
+    {
+        "name": "ShinChan",
+        "photo_url": "static/shinchan.jpg"
+    },
+    {
+        "name": "Doraemon",
+        "photo_url": "static/Doraemon.png"
+    },
+    {
+        "name": "Tom and Jerry",
+        "photo_url": "static/Tom and Jerry.jpg"
+    },
+    {
+        "name": "Chhota Bheem",
+        "photo_url": "static/Chhota-Bheem.jpg"
+    },
+    {
+        "name": "Cindrella",
+        "photo_url": "static/cindrella.jpg"
+    }
+    
+]
