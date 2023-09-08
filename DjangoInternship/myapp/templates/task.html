@@ -1,0 +1,27 @@
+
+{% load static %} 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cartoon</title>
+    <link rel="stylesheet" href="{% static 'style1.css' %}">
+</head>
+<body>
+    <div class="overlay">
+        <div class="h1">
+            <h1>Cartoon</h1>
+            <p>Explore the world of Cartoon networks with these exciting characters.</p>
+        </div>
+        
+        <h2> ♥ {{ cartoon.name }} ♥ </h2>
+        <!-- Replace the image source with the URL of your K-drama images -->
+        <img  src="{{ cartoon.photo_url }}" alt="{{ cartoon.name }}" width="200">
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="{% url 'task' %}">Click here to see next Cartoon!</a>
+       
+    </div>
+</body>
+</html>
